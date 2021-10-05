@@ -9,11 +9,10 @@ class Square():
     """
     This class defines some basic functions that you can do with a square
     """
-    
+
     width = 0
     height = 0
 
-    
     def __init__(self, *args, **kwargs):
         """ Constructor method """
         for key, value in kwargs.items():
@@ -30,6 +29,7 @@ class Square():
     def __str__(self):
         """ Output of object as a string """
         return "{}/{}".format(self.width, self.width)
+
 
 if __name__ == "__main__":
 
